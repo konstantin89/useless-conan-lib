@@ -34,3 +34,8 @@
 build
 .vs
 output
+conanbuildinfo.txt
+conan.lock
+conaninfo.txt
+graph_info.json
+conanbuildinfo.cmake

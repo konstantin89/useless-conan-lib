@@ -9,7 +9,11 @@ POC for working with Conan package manager
 
 
 ``` bash
+conan install . -g=cmake
+
 conan create . kosta/stable
+
+conan remove useless-lib/0.1@kosta/stable
 
 conan upload
 
